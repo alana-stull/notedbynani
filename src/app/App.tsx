@@ -105,7 +105,7 @@ export default function App() {
             {/* Hero Section */}
             <section style={{ padding: '100px 0 80px', textAlign: 'center' }}>
               <p style={{
-                fontSize: '11px',
+                fontSize: '13px',
                 letterSpacing: '0.16em',
                 textTransform: 'uppercase',
                 color: 'var(--sage)',
@@ -116,7 +116,7 @@ export default function App() {
               </p>
               <h1 style={{
                 fontFamily: "'DM Serif Display', serif",
-                fontSize: '58px',
+                fontSize: '64px',
                 lineHeight: '1.08',
                 marginBottom: '24px',
                 maxWidth: '580px',
@@ -126,7 +126,7 @@ export default function App() {
                 Peace of mind, <em style={{ fontStyle: 'italic', color: 'var(--sage-dark)' }}>one page</em> at a time.
               </h1>
               <p style={{
-                fontSize: '17px',
+                fontSize: '19px',
                 color: 'var(--mid)',
                 fontWeight: 300,
                 lineHeight: '1.75',
