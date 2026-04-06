@@ -41,15 +41,15 @@ export default function App() {
               padding: 0
             }}
           >
-            <div style={{ width: '280px', height: '120px', overflow: 'hidden', position: 'relative' }}>
+            <div style={{ width: '205px', height: '94px', overflow: 'hidden', position: 'relative' }}>
               <img
                 src={logoImage}
                 alt="Noted by Nani"
                 style={{
                   position: 'absolute',
-                  width: '420px',
-                  left: '-65px',
-                  top: '-145px'
+                  width: '310px',
+                  left: '-45px',
+                  top: '-103px'
                 }}
               />
             </div>
