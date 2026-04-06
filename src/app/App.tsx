@@ -5,6 +5,7 @@ import alignImage from '@/assets/54e4e8d7d4e1f66389b3798dda43209260360645.png';
 import growImage from '@/assets/5d6e08a83ad4f3293aad96ba330a927369a7154a.png';
 import believeImage1 from '@/assets/0469e3e2c23b026f6ae03d537dad6278e0e3f100.png';
 import believeImage2 from '@/assets/214e8b3be1bcf66128a542746c9026f3007028a1.png';
+import logoImage from '@/assets/logo.png';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'shop' | 'about'>('home');
@@ -34,24 +35,19 @@ export default function App() {
           <button
             onClick={() => showPage('home')}
             style={{
-              fontFamily: "'DM Serif Display', serif",
-              fontSize: '17px',
-              letterSpacing: '0.02em',
               cursor: 'pointer',
-              textDecoration: 'none',
-              color: 'var(--charcoal)',
               background: 'none',
               border: 'none',
               padding: 0
             }}
           >
-            Noted by Nani
+            <img src={logoImage} alt="Noted by Nani" style={{ height: '36px', display: 'block' }} />
           </button>
           <div style={{ display: 'flex', gap: '28px', alignItems: 'center' }}>
             <button
               onClick={() => showPage('home')}
               style={{
-                fontSize: '13px',
+                fontSize: '15px',
                 fontWeight: 400,
                 color: currentPage === 'home' ? 'var(--charcoal)' : 'var(--mid)',
                 textDecoration: 'none',
@@ -67,7 +63,7 @@ export default function App() {
             <button
               onClick={() => showPage('shop')}
               style={{
-                fontSize: '13px',
+                fontSize: '15px',
                 fontWeight: 400,
                 color: currentPage === 'shop' ? 'var(--charcoal)' : 'var(--mid)',
                 textDecoration: 'none',
@@ -83,7 +79,7 @@ export default function App() {
             <button
               onClick={() => showPage('about')}
               style={{
-                fontSize: '13px',
+                fontSize: '15px',
                 fontWeight: 400,
                 color: currentPage === 'about' ? 'var(--charcoal)' : 'var(--mid)',
                 textDecoration: 'none',
