@@ -41,7 +41,18 @@ export default function App() {
               padding: 0
             }}
           >
-            <img src={logoImage} alt="Noted by Nani" style={{ height: '64px', display: 'block' }} />
+            <div style={{ width: '280px', height: '120px', overflow: 'hidden', position: 'relative' }}>
+              <img
+                src={logoImage}
+                alt="Noted by Nani"
+                style={{
+                  position: 'absolute',
+                  width: '420px',
+                  left: '-65px',
+                  top: '-145px'
+                }}
+              />
+            </div>
           </button>
           <div style={{ display: 'flex', gap: '28px', alignItems: 'center' }}>
             <button
