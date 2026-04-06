@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
-import reflectImage from 'figma:asset/7df84d73ffc363a7238dad7d2baeea487662c8d8.png';
-import alignImage from 'figma:asset/54e4e8d7d4e1f66389b3798dda43209260360645.png';
-import growImage from 'figma:asset/5d6e08a83ad4f3293aad96ba330a927369a7154a.png';
-import believeImage1 from 'figma:asset/0469e3e2c23b026f6ae03d537dad6278e0e3f100.png';
-import believeImage2 from 'figma:asset/214e8b3be1bcf66128a542746c9026f3007028a1.png';
+import reflectImage from '@/assets/7df84d73ffc363a7238dad7d2baeea487662c8d8.png';
+import alignImage from '@/assets/54e4e8d7d4e1f66389b3798dda43209260360645.png';
+import growImage from '@/assets/5d6e08a83ad4f3293aad96ba330a927369a7154a.png';
+import believeImage1 from '@/assets/0469e3e2c23b026f6ae03d537dad6278e0e3f100.png';
+import believeImage2 from '@/assets/214e8b3be1bcf66128a542746c9026f3007028a1.png';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'shop' | 'about'>('home');
